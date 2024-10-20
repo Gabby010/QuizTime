@@ -14,6 +14,7 @@
 		FF8EC2A22CB2F5FD0008E756 /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EC2A12CB2F5FD0008E756 /* QuizAppTests.swift */; };
 		FF8EC2AC2CB2F5FD0008E756 /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EC2AB2CB2F5FD0008E756 /* QuizAppUITests.swift */; };
 		FF8EC2AE2CB2F5FD0008E756 /* QuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EC2AD2CB2F5FD0008E756 /* QuizAppUITestsLaunchTests.swift */; };
+		FF8EC2BB2CB2F7570008E756 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EC2BA2CB2F7570008E756 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF8EC28D2CB2F5FC0008E756 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8EC28D2CB2F5FC0008E756 /* QuizTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8EC2902CB2F5FC0008E756 /* QuizAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppApp.swift; sourceTree = "<group>"; };
 		FF8EC2922CB2F5FC0008E756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF8EC2942CB2F5FC0008E756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8EC2972CB2F5FC0008E756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF8EC29D2CB2F5FD0008E756 /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8EC29D2CB2F5FD0008E756 /* QuizTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8EC2A12CB2F5FD0008E756 /* QuizAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppTests.swift; sourceTree = "<group>"; };
-		FF8EC2A72CB2F5FD0008E756 /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8EC2A72CB2F5FD0008E756 /* QuizTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8EC2AB2CB2F5FD0008E756 /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		FF8EC2AD2CB2F5FD0008E756 /* QuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF8EC2BA2CB2F7570008E756 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +86,9 @@
 		FF8EC28E2CB2F5FC0008E756 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF8EC28D2CB2F5FC0008E756 /* QuizApp.app */,
-				FF8EC29D2CB2F5FD0008E756 /* QuizAppTests.xctest */,
-				FF8EC2A72CB2F5FD0008E756 /* QuizAppUITests.xctest */,
+				FF8EC28D2CB2F5FC0008E756 /* QuizTime.app */,
+				FF8EC29D2CB2F5FD0008E756 /* QuizTimeTests.xctest */,
+				FF8EC2A72CB2F5FD0008E756 /* QuizTimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				FF8EC2902CB2F5FC0008E756 /* QuizAppApp.swift */,
+				FF8EC2BA2CB2F7570008E756 /* SplashView.swift */,
 				FF8EC2922CB2F5FC0008E756 /* ContentView.swift */,
 				FF8EC2942CB2F5FC0008E756 /* Assets.xcassets */,
 				FF8EC2962CB2F5FC0008E756 /* Preview Content */,
@@ -130,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF8EC28C2CB2F5FC0008E756 /* QuizApp */ = {
+		FF8EC28C2CB2F5FC0008E756 /* QuizTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8EC2B12CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizApp" */;
+			buildConfigurationList = FF8EC2B12CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizTime" */;
 			buildPhases = (
 				FF8EC2892CB2F5FC0008E756 /* Sources */,
 				FF8EC28A2CB2F5FC0008E756 /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = QuizApp;
+			name = QuizTime;
 			productName = QuizApp;
-			productReference = FF8EC28D2CB2F5FC0008E756 /* QuizApp.app */;
+			productReference = FF8EC28D2CB2F5FC0008E756 /* QuizTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF8EC29C2CB2F5FD0008E756 /* QuizAppTests */ = {
+		FF8EC29C2CB2F5FD0008E756 /* QuizTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8EC2B42CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizAppTests" */;
+			buildConfigurationList = FF8EC2B42CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizTimeTests" */;
 			buildPhases = (
 				FF8EC2992CB2F5FD0008E756 /* Sources */,
 				FF8EC29A2CB2F5FD0008E756 /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				FF8EC29F2CB2F5FD0008E756 /* PBXTargetDependency */,
 			);
-			name = QuizAppTests;
+			name = QuizTimeTests;
 			productName = QuizAppTests;
-			productReference = FF8EC29D2CB2F5FD0008E756 /* QuizAppTests.xctest */;
+			productReference = FF8EC29D2CB2F5FD0008E756 /* QuizTimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF8EC2A62CB2F5FD0008E756 /* QuizAppUITests */ = {
+		FF8EC2A62CB2F5FD0008E756 /* QuizTimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF8EC2B72CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizAppUITests" */;
+			buildConfigurationList = FF8EC2B72CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizTimeUITests" */;
 			buildPhases = (
 				FF8EC2A32CB2F5FD0008E756 /* Sources */,
 				FF8EC2A42CB2F5FD0008E756 /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				FF8EC2A92CB2F5FD0008E756 /* PBXTargetDependency */,
 			);
-			name = QuizAppUITests;
+			name = QuizTimeUITests;
 			productName = QuizAppUITests;
-			productReference = FF8EC2A72CB2F5FD0008E756 /* QuizAppUITests.xctest */;
+			productReference = FF8EC2A72CB2F5FD0008E756 /* QuizTimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF8EC2882CB2F5FC0008E756 /* Build configuration list for PBXProject "QuizApp" */;
+			buildConfigurationList = FF8EC2882CB2F5FC0008E756 /* Build configuration list for PBXProject "QuizTime" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF8EC28C2CB2F5FC0008E756 /* QuizApp */,
-				FF8EC29C2CB2F5FD0008E756 /* QuizAppTests */,
-				FF8EC2A62CB2F5FD0008E756 /* QuizAppUITests */,
+				FF8EC28C2CB2F5FC0008E756 /* QuizTime */,
+				FF8EC29C2CB2F5FD0008E756 /* QuizTimeTests */,
+				FF8EC2A62CB2F5FD0008E756 /* QuizTimeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +262,7 @@
 			files = (
 				FF8EC2932CB2F5FC0008E756 /* ContentView.swift in Sources */,
 				FF8EC2912CB2F5FC0008E756 /* QuizAppApp.swift in Sources */,
+				FF8EC2BB2CB2F7570008E756 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		FF8EC29F2CB2F5FD0008E756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF8EC28C2CB2F5FC0008E756 /* QuizApp */;
+			target = FF8EC28C2CB2F5FC0008E756 /* QuizTime */;
 			targetProxy = FF8EC29E2CB2F5FD0008E756 /* PBXContainerItemProxy */;
 		};
 		FF8EC2A92CB2F5FD0008E756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF8EC28C2CB2F5FC0008E756 /* QuizApp */;
+			target = FF8EC28C2CB2F5FC0008E756 /* QuizTime */;
 			targetProxy = FF8EC2A82CB2F5FD0008E756 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,6 +429,7 @@
 				DEVELOPMENT_TEAM = 5B5Y74SB4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quiz Time";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +459,7 @@
 				DEVELOPMENT_TEAM = 5B5Y74SB4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quiz Time";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +494,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizTime";
 			};
 			name = Debug;
 		};
@@ -508,7 +514,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizTime";
 			};
 			name = Release;
 		};
@@ -551,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF8EC2882CB2F5FC0008E756 /* Build configuration list for PBXProject "QuizApp" */ = {
+		FF8EC2882CB2F5FC0008E756 /* Build configuration list for PBXProject "QuizTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8EC2AF2CB2F5FD0008E756 /* Debug */,
@@ -560,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8EC2B12CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizApp" */ = {
+		FF8EC2B12CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8EC2B22CB2F5FD0008E756 /* Debug */,
@@ -569,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8EC2B42CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
+		FF8EC2B42CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8EC2B52CB2F5FD0008E756 /* Debug */,
@@ -578,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF8EC2B72CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizAppUITests" */ = {
+		FF8EC2B72CB2F5FD0008E756 /* Build configuration list for PBXNativeTarget "QuizTimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF8EC2B82CB2F5FD0008E756 /* Debug */,
